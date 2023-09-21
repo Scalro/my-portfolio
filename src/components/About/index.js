@@ -11,15 +11,7 @@ const About = () => {
         </h1>
         <hr />
         <p>Software Engineer</p>
-        <p>
-          With a fervent dedication to software development, I possess a
-          versatile skill set encompassing Java, JavaScript, Python, HTML, CSS,
-          Dart, and their respective frameworks. Proficient in data structures
-          and algorithms, software project management, and system analysis, I
-          possess the expertise to create web, mobile, and desktop applications.
-          My passion for technology drives my commitment to delivering
-          innovative and impactful solutions.
-        </p>
+        <p>Graduated at University of Eastern Africa Baraton</p>
       </div>
     </div>
   )
