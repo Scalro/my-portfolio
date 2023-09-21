@@ -1,10 +1,10 @@
-import './index.scss'
+import './home.scss'
 import profileImage from '../../assets/images/profile.png'
 const Home = () => {
   return (
     <div className="home">
       <div className="left">
-        <img src={profileImage} alt="Caleb Rotich" />
+        <img className="im" src={profileImage} alt="Caleb Rotich" />
       </div>
       <div className="right">
         <h1>
