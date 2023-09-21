@@ -10,7 +10,7 @@ const About = () => {
           <i>Hello,</i> I am <b>CALEB ROTICH</b>
         </h1>
         <hr />
-        <p>Software Engineer</p>
+        <p>SCALROTECH</p>
         <p>Graduated at University of Eastern Africa Baraton</p>
       </div>
     </div>
