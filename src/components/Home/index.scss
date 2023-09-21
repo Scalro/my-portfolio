@@ -1,5 +1,62 @@
 .home {
-  h1 {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  background-color: #0c3806;
+  color: #e2e2e2;
+}
+
+.left {
+  flex: 1;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 50%; /* Rounded profile image */
+}
+
+.right {
+  flex: 2;
+  padding-left: 2rem; /* Adjust the spacing between image and text */
+}
+
+h1 {
+  font-size: 7rem;
+  margin: 0;
+}
+
+i {
+  color: #007bff;
+}
+
+b {
+  color: #fff;
+}
+
+hr {
+  width: 100%;
+  margin: 1rem 0;
+  border: 1px solid #007bff;
+}
+
+p {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
     text-align: center;
+  }
+
+  .left {
+    padding-bottom: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
   }
 }

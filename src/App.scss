@@ -2,8 +2,10 @@
 }
 
 .content {
+  margin-top: 4rem;
+  margin-left: 10rem;
+  margin-right: 2rem;
   display: flex;
   justify-content: center; /* Center content horizontally */
   align-items: center; /* Center content vertically */
-  height: 100vh; /* Use the full height of the viewport */
 }
