@@ -1,5 +1,5 @@
 import './index.scss'
-import profileImage from '../../assets/images/profile.png'
+import profileImage from '../../assets/images/contact-us.avif'
 
 const Contacts = () => {
   return (

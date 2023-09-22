@@ -1,5 +1,5 @@
 import './index.scss' // Import the SCSS file
-import profileImage from '../../assets/images/profile.png' // Adjust the path to your profile image
+import profileImage from '../../assets/images/about-us.jpeg' // Adjust the path to your profile image
 
 function About() {
   return (

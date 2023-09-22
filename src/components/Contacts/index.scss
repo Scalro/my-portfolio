@@ -1,6 +1,12 @@
 .contact {
   display: flex;
   justify-content: space-between;
+
+  img {
+    padding-top: 30%;
+    max-width: 100%;
+    border-radius: 10%;
+  }
   .right {
     width: 70%;
 
