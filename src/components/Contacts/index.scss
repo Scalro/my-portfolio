@@ -1,0 +1,65 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+  .right {
+    width: 70%;
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+
+      .contact-form {
+        width: 45%; /* Adjust as needed */
+        padding: 20px; /* Add padding for spacing */
+
+        form {
+          /* Form styling */
+          display: flex;
+          flex-direction: column;
+
+          label {
+            /* Label styling */
+            font-weight: bold;
+          }
+
+          input {
+            /* Input field styling */
+            margin-bottom: 10px; /* Add space between input fields */
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+          }
+
+          textarea {
+            margin-bottom: 20px;
+            padding: 20px;
+          }
+
+          button {
+            /* Button styling */
+            padding: 10px 20px;
+            background-color: #007bff; /* Change to your desired button color */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+              background-color: #0056b3; /* Change to your desired hover color */
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.card {
+  p {
+    font-size: 2.5rem;
+    justify-content: right;
+  }
+}
