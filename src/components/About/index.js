@@ -23,6 +23,14 @@ function About() {
           I am currently looking for opportunities to work on innovative and
           impactful projects.
         </p>
+        <p>
+          <i>
+            <h3>
+              To know more about me, and my projects check the links on the left
+              bottom Sidebar
+            </h3>
+          </i>
+        </p>
       </div>
     </div>
   )
