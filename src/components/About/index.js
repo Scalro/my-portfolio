@@ -10,7 +10,7 @@ function About() {
       <div className="right">
         <h1>About Me</h1>
         <hr />
-        <p>Hello, I'm Caleb Rotich, a Software Engineer.</p>
+        <p>Hello, I am Caleb Rotich, a Software Engineer.</p>
         <p>
           I graduated from the University of Eastern Africa Baraton in August
           2023.
@@ -27,7 +27,7 @@ function About() {
           <i>
             <h3>
               To know more about me, and my projects check the links on the left
-              bottom Sidebar
+              bottom Sidebar. Thank you for visiting my portfolio.
             </h3>
           </i>
         </p>
