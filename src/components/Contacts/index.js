@@ -16,11 +16,17 @@ const Contacts = () => {
           <div className="contact-form">
             <form>
               {/* Your form fields go here */}
-              <label htmlFor="name"><i id='label'>Name:</i></label>
+              <label htmlFor="name">
+                <i style={{ color: 'blue', fontSize: '2.5rem' }}>Name:</i>
+              </label>
               <input type="text" id="name" name="name" />
-              <label htmlFor="name"><i id='label'>Email:</i></label>
+              <label htmlFor="name">
+                <i style={{ color: 'blue', fontSize: '2.5rem' }}>Email:</i>
+              </label>
               <input type="text" id="email" name="email" />
-              <label htmlFor="name"><i id='label'>Message:</i></label>
+              <label htmlFor="name">
+                <i style={{ color: 'blue', fontSize: '2.5rem' }}>Message:</i>
+              </label>
               <textarea type="text" id="message" name="message" />
               {/* Add more form fields as needed */}
               <button type="submit">Send</button>
@@ -32,7 +38,9 @@ const Contacts = () => {
               {/* Card details */}
               <p>Phone Number: +254703542430</p>
               <p>WhatsApp Number: +254725545610</p>
-              <p>Email: <i>rotichcaleb200@gmail.com</i></p>
+              <p>
+                Email: <i>rotichcaleb200@gmail.com</i>
+              </p>
             </div>
           </div>
         </div>
