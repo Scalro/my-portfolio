@@ -8,7 +8,7 @@ function About() {
         <img className="profile-image" src={profileImage} alt="Caleb Rotich" />
       </div>
       <div className="right">
-        <h1>About Me</h1>
+        <h1 style={{ color: '#00ff00' }}>About Me</h1>
         <hr />
         <p>Hello, I am Caleb Rotich, a Software Engineer.</p>
         <p>
