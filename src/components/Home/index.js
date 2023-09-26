@@ -8,7 +8,7 @@ const Home = () => {
       </div>
       <div className="right">
         <h1>
-          <i>Hello,</i> I am <b>CALEB ROTICH</b>
+          <i>Hello,</i> I am <b style={{ color: '#00ff00' }}>CALEB ROTICH</b>
         </h1>
         <hr />
         <p>Software Engineer</p>
