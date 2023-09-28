@@ -17,19 +17,22 @@ const Contacts = () => {
             <form>
               {/* Your form fields go here */}
               <label htmlFor="name">
-                <i style={{ color: 'blue', fontSize: '2.5rem' }}>Name:</i>
+                <i style={{ color: '#17fc03', fontSize: '2.5rem' }}>Name:</i>
               </label>
               <input type="text" id="name" name="name" />
               <label htmlFor="name">
-                <i style={{ color: 'blue', fontSize: '2.5rem' }}>Email:</i>
+                <i style={{ color: '#17fc03', fontSize: '2.5rem' }}>Email:</i>
               </label>
               <input type="text" id="email" name="email" />
               <label htmlFor="name">
-                <i style={{ color: 'blue', fontSize: '2.5rem' }}>Message:</i>
+                <i style={{ color: '#17fc03', fontSize: '2.5rem' }}>Message:</i>
               </label>
               <textarea type="text" id="message" name="message" />
               {/* Add more form fields as needed */}
-              <button type="submit">Send</button>
+              <button type="submit">
+                {' '}
+                <b style={{ color: '#fff', fontSize: 'bold' }}>Send</b>
+              </button>
             </form>
           </div>
           <div className="contact-details">
