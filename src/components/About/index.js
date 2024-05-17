@@ -4,9 +4,9 @@ import profileImage from '../../assets/images/about-us.jpeg' // Adjust the path 
 function About() {
   return (
     <div className="about">
-      <div className="left">
+      {/* <div className="left">
         <img className="profile-image" src={profileImage} alt="Caleb Rotich" />
-      </div>
+      </div> */}
       <div className="right">
         <h1 style={{ color: '#00ff00' }}>About Me</h1>
         <hr />

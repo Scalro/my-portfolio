@@ -1,5 +1,5 @@
 import './home.scss'
-import profileImage from '../../assets/images/profile.png'
+import profileImage from '../../assets/images/myprof.png'
 const Home = () => {
   return (
     <div className="home">
