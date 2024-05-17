@@ -1,12 +1,10 @@
 import './index.scss'
-import profileImage from '../../assets/images/contact-us.avif'
-
 const Contacts = () => {
   return (
     <div className="contact">
-      <div className="left">
+      {/* <div className="left">
         <img className="im" src={profileImage} alt="Caleb Rotich" />
-      </div>
+      </div> */}
       <div className="right">
         <h1>
           <b style={{ color: '#00ff00' }}>CONTACT ME</b>
